@@ -1,4 +1,4 @@
-# User Comments
+# Use Comments
 # Program Title:Soil moisture detection and email sending
 # Program  Description:Monitor the soil condition, send emails to the owner regularly to inform them of the plant situation and determine whether watering is needed
 # Name:Yuchen Zhang
