@@ -1,9 +1,17 @@
+# User Comments
+# Program Title:Soil moisture detection and email sending
+# Program  Description:Monitor the soil condition, send emails to the owner regularly to inform them of the plant situation and determine whether watering is needed
+# Name:Yuchen Zhang
+# Student ID:20108616
+# Course & Year:Project Semester3 
+# Date:20/4/2025
+
 import smtplib
 from email.message import EmailMessage
 import RPi.GPIO as GPIO
 import time
 from datetime import datetime, timedelta
-import pytz  # 用于处理时区
+import pytz
 
 # Soil Sensor Reading Function
 def read_soil_moisture():
@@ -43,7 +51,7 @@ def send_email(plant_status):
 # Main Script Logic
 def main():
     # Define daily reading times in Beijing Time (CST)
-    reading_times = ["07:30", "10:00", "13:00", "16:00"]
+    reading_times = ["13:00", "15:00", "18:00", "20:00"]
     
     # Log file to store email history
     log_file = "email_history.txt"

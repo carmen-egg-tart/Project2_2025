@@ -1,0 +1,9 @@
+2025-04-19 23:00:02 - Please water your plant
+2025-04-19 23:02:01 - Please water your plant
+2025-04-19 23:04:01 - Please water your plant
+2025-04-19 23:06:01 - Water NOT needed
+2025-04-20 12:41:02 - Water NOT needed
+2025-04-20 13:00:02 - Water NOT needed
+2025-04-20 15:00:02 - Water NOT needed
+2025-04-20 18:00:07 - Please water your plant
+2025-04-20 20:00:01 - Please water your plant
